@@ -1,0 +1,72 @@
+- title: Full time
+  type: time_table
+  contents:
+    - title: Research Scientist
+      institution: Allen Institute of AI
+      year: 2023-Present
+    - title: Research Scientist
+      institution: Meta AI
+      year: 2022-2023
+
+- title: Education
+  type: time_table
+  contents:
+    - title: PhD
+      institution: Carnegie Mellon University
+      year: 2016-2021
+      description:
+        - Thesis:Effective Anchoring of Multiview Narrative Generation
+    - title: Bachelors+Masters (dual degree)
+      institution: International Institute of Information Technology
+      year: 2011-2016
+      description:
+        - Thesis:Code-Mixed Question Answering for Indian Languages
+
+- title: Internships
+  type: time_table
+  contents:
+    - title: Research Intern
+      institution: Meta AI
+      year: Summer 2021
+    - title: Research Intern
+      institution: Google AI
+      year: Summer 2020
+    - title: Research Intern
+      institution: Apple
+      year: Summer 2019
+
+- title: Research Service
+  type: time_table
+  contents:
+    - year: 2023
+      items: 
+        - Area Chair at AACL (Generation and Summarization)
+    - year: 2023
+      items: 
+        - Workshop on Novel Ideas in Learning to Learn through Interaction (NILLI) (EMNLP)
+        - Workshop on Generation, Evaluation, Metrics (GEM) (EMNLP)
+        - Workshop on Narrative Understanding (WNU) (ACL)
+    - year: 2022
+      items:
+        - Workshop on Generation, Evaluation, Metrics (GEM) (EMNLP)
+        - Workshop on Narrative Understanding (WNU) (NAACL)
+        - Doctoral Symposium (AIMLSystems)
+    - year: DEI
+      items:
+        - Academic Inclusion at ACL'20 & 21, NAACL'22
+        - WiNLP'20 (ACL) and 21 (EMNLP)
+    - year: Panel Mod
+      items:
+        - WiNLP'21, WiNLP @AACL'20
+
+
+- title: Awards
+  type: time_table
+  contents:
+    - year: 2020
+      items: 
+        - Rising Stars
+    - year: 2019
+      items: 
+        - Winners of BioAsq Challenge
+
