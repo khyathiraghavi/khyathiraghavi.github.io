@@ -10,7 +10,7 @@ horizontal: false
 ---
 
 <p>Welcome to my palette of possibilities!! </p> 
-<p>When I'm super peaceful. I love to dabbling in the vibrant art world.  
+<p>When I'm super peaceful. I love to dabble in the vibrant art world.  
 When I am super <b>p</b>eaceful, the interplay of <b>p</b>ixels, <b>p</b>igments and <b>p</b>uropose brings me great joy. I invite you to witness the kaleidoscopic contours in my artistic journey.
 </p>
 

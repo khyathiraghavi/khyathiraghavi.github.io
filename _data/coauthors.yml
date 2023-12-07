@@ -1,34 +1,23 @@
-"Adams":
-  - firstname: ["Edwin", "E.", "E. P.", "Edwin Plimpton"]
-    url: https://en.wikipedia.org/wiki/Edwin_Plimpton_Adams
+"Choi":
+  - firstname: ["Yejin Choi", "Yejin"]
+    url: https://homes.cs.washington.edu/~yejin/
 
-"Podolsky":
-  - firstname: ["Boris", "B.", "B. Y.", "Boris Yakovlevich"]
-    url: https://en.wikipedia.org/wiki/Boris_Podolsky
+"Hajishirzi":
+  - firstname: ["Hannaneh Hajishirzi", "Hanna", "Hannaneh"]
+    url: https://homes.cs.washington.edu/~hannaneh/
 
-"Rosen":
-  - firstname: ["Nathan", "N."]
-    url: https://en.wikipedia.org/wiki/Nathan_Rosen
+"Smith":
+  - firstname: ["Noah A Smith", "Noah Smith", "Noah"]
+    url: https://nasmith.github.io/
 
-"Bach": 
-  - firstname: ["Johann Sebastian", "J. S."]
-    url: https://en.wikipedia.org/wiki/Johann_Sebastian_Bach
+"Farhadi":
+  - firstname: ["Ali Farhadi", "Ali"]
+    url: https://allenai.org/team/alif
 
-  - firstname: ["Carl Philipp Emanuel", "C. P. E."]
-    url: https://en.wikipedia.org/wiki/Carl_Philipp_Emanuel_Bach
+"Gao":
+  - firstname: ["Jianfeng Gao", "Jianfeng"]
+    url: https://www.microsoft.com/en-us/research/people/jfgao/
 
-"Przibram":
-  - firstname: ["Karl"]
-    url: https://link.springer.com/article/10.1007/s00016-019-00242-z
-
-"Schrödinger":
-  - firstname: ["Erwin"]
-    url: https://en.wikipedia.org/wiki/Erwin_Schr%C3%B6dinger
-
-"Lorentz":
-  - firstname: ["Hendrik Antoon"]
-    url: https://en.wikipedia.org/wiki/Hendrik_Lorentz
-
-"Planck":
-  - firstname: ["Max"]
-    url: https://en.wikipedia.org/wiki/Max_Planck
+"Gehrmann":
+  - firstname: ["Sebastian Gehrmann", "Sebastian"]
+    url: https://sebastiangehrmann.github.io/
