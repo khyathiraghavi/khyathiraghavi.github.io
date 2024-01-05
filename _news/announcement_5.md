@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-New paper alerrt! [The Generative AI Paradox: What It Can Create, It May Not Understand](https://arxiv.org/abs/2311.00059) is out.
+New paper alert! [The Generative AI Paradox: What It Can Create, It May Not Understand](https://arxiv.org/abs/2311.00059) is out.
