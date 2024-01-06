@@ -19,7 +19,7 @@ selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-I am a Research Scientist in the [Mosaic](https://mosaic.allenai.org/) working with [Yejin Choi](https://homes.cs.washington.edu/~yejin/) and the team at the [Allen Institute of AI](https://allenai.org/). Prior to this, I completed my Ph.D. from [Carnegie Mellon University](https://www.cmu.edu/) on grounded multimodal long-form generation from the [Language Technologies Institute](https://lti.cs.cmu.edu/) advised by [Alan W. Black](http://www.cs.cmu.edu/~awb/) and [Yonatan Bisk](https://yonatanbisk.com/). My current focus is centered on three primary pillars:
+I am a Research Scientist in the [Mosaic](https://mosaic.allenai.org/) working with [Yejin Choi](https://homes.cs.washington.edu/~yejin/) and the team at the [Allen Institute of AI](https://allenai.org/). Prior to this, I completed my Ph.D. from [Carnegie Mellon University](https://www.cmu.edu/) on grounded multimodal long-form generation from the [Language Technologies Institute](https://lti.cs.cmu.edu/) advised by [Alan W. Black](http://www.cs.cmu.edu/~awb/), [Eric Nyberg](https://www.cs.cmu.edu/~ehn/) and [Yonatan Bisk](https://yonatanbisk.com/). My current focus is centered on three primary pillars:
 
 * **Science of LMs:** Improving reliability and awareness in LLMs and VLMs with a focus on reducing hallucinations.
 * **Multimodal distillation:** Syngergizing LLMs and VLMs to assist each other.
