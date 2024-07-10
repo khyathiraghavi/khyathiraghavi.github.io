@@ -7,6 +7,9 @@
     - title: Research Scientist
       institution: Meta AI
       year: 2022-2023
+    - title: Visiting Professor
+      institution: Jio Institute
+      year: 2024
 
 - title: Education
   type: time_table
@@ -38,6 +41,12 @@
 - title: Research Service
   type: time_table
   contents:
+    - year: 2024
+      items:
+        - Area Chair at Neurips, COLM, ACL ARR (Feb, Apr, June)
+    - year: 2024
+      items:
+        - Organizer; Workshop on Narrative Understanding at EMNLP
     - year: 2023
       items: 
         - Area Chair at AACL (Generation and Summarization)

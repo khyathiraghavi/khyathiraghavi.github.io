@@ -3,6 +3,406 @@
 
 @string{aps = {American Physical Society,}}
 
+@inproceedings{cunc,
+  title={Certainly Uncertain: A Benchmark and Metric for Multimodal Epistemic and Aleatoric Awareness},
+  author={Khyathi Raghavi Chandu and
+          Linjie Li and
+          Anas Awadalla and
+          Ximing Lu and
+          Jae Sung Park and
+          Jack Hessel and
+          Lijuan Wang and
+          Yejin {Choi}},
+  booktitle={arXiv},
+  month=July,
+  year={2024},
+  url={https://arxiv.org/pdf/2407.01942},
+  preview={lumos.png},
+  arxiv={2407.01942},
+  abstract={The ability to acknowledge the inevitable uncertainty in their knowledge and reasoning is a prerequisite for AI systems to be truly truthful and reliable. In this paper, we present a taxonomy of uncertainty specific to vision-language AI systems, distinguishing between epistemic uncertainty (arising from a lack of information) and aleatoric uncertainty (due to inherent unpredictability), and further explore finer categories within. Based on this taxonomy, we synthesize a benchmark dataset, CERTAINLYUNCERTAIN, featuring 178K visual question answering (VQA) samples as contrastive pairs. This is achieved by 1) inpainting images to make previously answerable questions into unanswerable ones; and 2) using image captions to prompt large language models for both answerable and unanswerable questions. Additionally, we introduce a new metric confidence-weighted accuracy, that is well correlated with both accuracy and calibration error, to address the shortcomings of existing metrics. Despite the recent rapid progress in vision-language models (VLMs), evaluations on our benchmark show that they perform poorly in uncertain scenarios. Further experiments demonstrate that supervised fine-tuning with CERTAINLYUNCERTAIN enhances the performance of VLMs, and reduces the calibration error. These improvements extend beyond our benchmark to existing refusal-oriented datasets and show positive results on reducing hallucinations, while maintaining performance on standard VQA benchmarks. Our work underscores the importance of addressing uncertainty in vision-language AI systems to improve their reliability and trustworthiness in real-world applications.}
+}
+
+@inproceedings{datacomp,
+  title={DataComp-LM: In search of the next generation of training sets for language models},
+  author={Jeffrey Li and
+  Alex Fang and 
+  Georgios Smyrnis and 
+  Maor Ivgi and 
+  Matt Jordan and 
+  Samir Gadre and 
+  Hritik Bansal and 
+  Etash Guha and 
+  Sedrick Keh and 
+  Kushal Arora and 
+  Saurabh Garg and 
+  Rui Xin and 
+  Niklas Muenninghoff and 
+  Reinhard Heckel and 
+  Jean Mercat and 
+  Mayee Chen and 
+  Suchin Gururangan and 
+  Mitchell Wortsman and 
+  Alon Albalak and 
+  Yonatan Bitton and 
+  Marianna Nezhurina and 
+  Amro Abbas and 
+  Cheng-Yu Hsieh and 
+  Dhruba Ghosh and
+  Josh Gardner and 
+  Maciej Kilian and 
+  Hanlin Zhang and 
+  Rulin Shao and 
+  Sarah Pratt and 
+  Sunny Sanyal and 
+  Gabriel Ilharco and 
+  Giannis Daras and 
+  Kalyani Marathe and 
+  Aaron Gokaslan and 
+  Jieyu Zhang and 
+  Khyathi Chandu and 
+  Thao Nguyen and 
+  Igor Vasiljevic and 
+  Sham Kakade and 
+  Shuran Song and 
+  Sujay Sanghavi and 
+  Fartash Faghri and 
+  Sewoong Oh and 
+  Luke Zettlemoyer and 
+  Kyle Lo and 
+  Alaaeldin El-Nouby and 
+  Hadi Pouransari and 
+  Alexander Toshev and 
+  Stephanie Wang and 
+  Dirk Groeneveld and 
+  Luca Soldani and 
+  Pang Wei Koh and 
+  Jenia Jitsev and 
+  Thomas Kollar and 
+  Alexandros G Dimakis and 
+  Yair Carmon and 
+  Achal Dave and 
+  Ludwig Schmidt and 
+  Vaishaal Shankar},
+  booktitle={arXiv},
+  month=June,
+  year={2024},
+  url={https://arxiv.org/pdf/2406.11794},
+  preview={lumos.png},
+  arxiv={2406.11794},
+  abstract={We introduce DataComp for Language Models (DCLM), a testbed for controlled dataset experiments with the goal of improving language models. As part of DCLM, we provide a standardized corpus of 240T tokens extracted from Common Crawl, effective pretraining recipes based on the OpenLM framework, and a broad suite of 53 downstream evaluations. Participants in the DCLM benchmark can experiment with data curation strategies such as deduplication, filtering, and data mixing at model scales ranging from 412M to 7B parameters. As a baseline for DCLM, we conduct extensive experiments and find that model-based filtering is key to assembling a high-quality training set. The resulting dataset, DCLMBASELINE, enables training a 7B parameter language model from scratch to 64% 5-shot accuracy on MMLU with 2.6T training tokens. Compared to MAP-Neo, the previous state-of-the-art in open-data language models, DCLM-BASELINE represents a 6.6 percentage point improvement on MMLU while being trained with 40% less compute. Our baseline model is also comparable to Mistral-7B-v0.3 and Llama 3 8B on MMLU (63% & 66%), and performs similarly on an average of 53 natural language understanding tasks while being trained with 6.6× less compute than Llama 3 8B. Our results highlight the importance of dataset design for training language models and offer a starting point for further research on data curation. We release the DCLM benchmark, framework, models, and datasets at https://datacomp.ai/dclm.}
+}
+
+@inproceedings{cnlm,
+  title={The Art of Saying No: Contextual Noncompliance in Language Models},
+  author={Faeze Brahman and
+          Sachin Kumar and
+          Vidhisha Balachandran and
+          Pradeep Dasigi and
+          Valentina Pyatkin and
+          Abhilasha Ravichander and
+          Sarah Wiegreffe and
+          Nouha Dziri and
+          Khyathi Chandu and
+          Jack Hessel and
+          Yulia Tsvetkov and
+          Noah A. Smith and
+          Yejin {Choi} and
+          Hannaneh Hajishirzi},
+  booktitle={arXiv},
+  month=May,
+  year={2024},
+  url={https://arxiv.org/pdf/2311.05657},
+  preview={lumos.png},
+  arxiv={2311.05657},
+  code={https://github.com/allenai/noncompliance},
+  abstract={Chat-based language models are designed to be helpful, yet they should not comply with every user request. While most existing work primarily focuses on refusal of “unsafe” queries, we posit that the scope of noncompliance should be broadened. We introduce a comprehensive taxonomy of contextual noncompliance describing when and how models should not comply with user requests. Our taxonomy spans a wide range of categories including incomplete, unsupported, indeterminate, and humanizing requests (in addition to unsafe requests). To test noncompliance capabilities of language models, we use this taxonomy to develop a new evaluation suite of 1000 noncompliance prompts. We find that most existing models show significantly high compliance rates in certain previously understudied categories with models like GPT-4 incorrectly complying with as many as 30% of requests. To address these gaps, we explore different training strategies using a syntheticallygenerated training set of requests and expected noncompliant responses. Our experiments demonstrate that while direct finetuning of instruction-tuned models can lead to both over-refusal and a decline in general capabilities, using parameter efficient methods like low rank adapters helps to strike a good balance between appropriate noncompliance and other capabilities.}
+}
+
+@inproceedings{wildb,
+  title={WILDBENCH: Benchmarking LLMs with Challenging Tasks from Real Users in the Wild},
+  author={Bill Yuchen Lin and
+          Yuntian Deng and
+          Khyathi Chandu and 
+          Faeze Brahman and 
+          Abhilasha Ravichander and 
+          Valentina Pyatkin and 
+          Nouha Dziri and 
+          Ronan Le Bras and 
+          Yejin {Choi}},
+  booktitle={arXiv},
+  month=June,
+  year={2024},
+  url={https://arxiv.org/pdf/2406.04770},
+  preview={lumos.png},
+  arxiv={2406.04770},
+  website={https://hf.co/spaces/allenai/WildBench},
+  abstract={We introduce WildBench, an automated evaluation framework designed to benchmark large language models (LLMs) using challenging, real-world user queries. WILDBENCH consists of 1,024 tasks carefully selected from over one million human-chatbot conversation logs. For automated evaluation with WILDBENCH, we have developed two metrics, WB-Reward and WB-Score, which are computable using advanced LLMs such as GPT-4-turbo. WILDBENCH evaluation uses taskspecific checklists to evaluate model outputs systematically and provides structured explanations that justify the scores and comparisons, resulting in more reliable and interpretable automatic judgments. WB-Reward employs fine-grained pairwise comparisons between model responses, generating five potential outcomes: much better, slightly better, slightly worse, much worse, or a tie. Unlike previous evaluations that employed a single baseline model, we selected three baseline models at varying performance levels to ensure a comprehensive pairwise evaluation. Additionally, we propose a simple method to mitigate length bias, by converting outcomes of “slightly better/worse” to “tie” if the winner response exceeds the loser one by more than K characters. WB-Score evaluates the quality of model outputs individually, making it a fast and cost-efficient evaluation metric. WILDBENCH results demonstrate a strong correlation with the human-voted Elo ratings from Chatbot Arena on hard tasks. Specifically, WB-Reward achieves a Pearson correlation of 0.98 with top-ranking models. Additionally, WB-Score reaches 0.95, surpassing both ArenaHard’s 0.91 and AlpacaEval2.0’s 0.89 for length-controlled win rates, as well as the 0.87 for regular win rates.}
+}
+
+@inproceedings{wildh,
+  title={WildHallucinations : Evaluating Long-form Factuality in LLMs with Real-World Entity Queries},
+  author={},
+  booktitle={},
+  month=May,
+  year={2024},
+  url={},
+  preview={lumos.png},
+  arxiv={},
+  code={},
+  website={},
+  model={},
+  abstract={}
+}
+
+@inproceedings{rbench,
+  title={Rewardbench: Evaluating reward models for language modeling},
+  author={Nathan Lambert and 
+          Valentina Pyatkin and 
+          Jacob Morrison and 
+          LJ Miranda and 
+          Bill Yuchen Lin and 
+          Khyathi Chandu and 
+          Nouha Dziri and 
+          Sachin Kumar and 
+          Tom Zick and 
+          Yejin {Choi} and 
+          Noah A Smith and 
+          Hannaneh Hajishirzi},
+  booktitle={arXiv},
+  month=March,
+  year={2024},
+  url={https://arxiv.org/pdf/2403.13787},
+  preview={lumos.png},
+  arxiv={2403.13787},
+  code={https://github.com/allenai/reward-bench},
+  website={https://hf.co/spaces/allenai/reward-bench},
+  model={},
+  abstract={Reward models (RMs) are at the crux of successfully using RLHF to align pretrained models to human preferences, yet there has been relatively little study that focuses on evaluation of those models. Evaluating reward models presents an opportunity to understand the opaque technologies used for alignment of language models and which values are embedded in them. Resources for reward model training and understanding are sparse in the nascent open-source community around them. To enhance scientific understanding of reward models, we present REWARDBENCH, a benchmark dataset and code-base for evaluation. The REWARDBENCH dataset is a collection of prompt-chosen-rejected trios spanning chat, reasoning, and safety, to benchmark how reward models perform on challenging, structured and out-of-distribution queries. We create specific comparison datasets for RMs that have subtle, but verifiable reasons (e.g. bugs, incorrect facts) why one answer should be preferred to another. On the REWARDBENCH leaderboard, we evaluate reward models trained with a variety of methods, such as the direct MLE training of classifiers and the implicit reward modeling of Direct Preference Optimization (DPO). We present many findings on propensity for refusals, reasoning limitations, and instruction following shortcomings of various reward models towards a better understanding of the RLHF process.}
+}
+
+@inproceedings{l3go,
+  title={L3GO: Language Agents with Chain-of-3D-Thoughts for Generating Unconventional Objects},
+  author={Yutaro Yamada and 
+          Khyathi Chandu and 
+          Yuchen Lin and 
+          Jack Hessel and 
+          Ilker Yildirim and 
+          Yejin {Choi}},
+  booktitle={arXiv},
+  month=February,
+  year={2024},
+  url={https://arxiv.org/pdf/2402.09052},
+  preview={lumos.png},
+  arxiv={2402.09052},
+  abstract={Diffusion-based image generation models such as DALL-E 3 and Stable Diffusion-XL demonstrate remarkable capabilities in generating images with realistic and unique compositions. Yet, these models are not robust in precisely reasoning about physical and spatial configurations of objects, especially when instructed with unconventional, thereby out-of-distribution descriptions, such as “a chair with five legs”. In this paper, we propose a language agent with chain-of-3Dthoughts (L3GO), an inference-time approach that can reason about part-based 3D mesh generation of unconventional objects that current data-driven diffusion models struggle with. More concretely, we use large language models as agents to compose a desired object via trial-and-error within the 3D simulation environment. To facilitate our investigation, we develop a new benchmark, Unconventionally Feasible Objects (UFO), as well as SimpleBlenv, a wrapper environment built on top of Blender1 where language agents can build and compose atomic building blocks via API calls. Human and automatic GPT-4V evaluations show that our approach surpasses the standard GPT-4 and other language agents (e.g., ReAct and Reflexion) for 3D mesh generation on ShapeNet. Moreover, when tested on our UFO benchmark, our approach outperforms other state-of-the-art text-to-2D image and text-to-3D models based on human evaluation.}
+}
+
+@inproceedings{olmo,
+  title={Olmo: Accelerating the science of language models},
+  author={Dirk Groeneveld and 
+          Iz Beltagy and 
+          Pete Walsh and 
+          Akshita Bhagia and 
+          Rodney Kinney and 
+          Oyvind Tafjord and 
+          Ananya Harsh Jha and 
+          Hamish Ivison and 
+          Ian Magnusson and 
+          Yizhong Wang and 
+          Shane Arora and 
+          David Atkinson and 
+          Russell Authur and 
+          Khyathi Raghavi Chandu and 
+          Arman Cohan and 
+          Jennifer Dumas and 
+          Yanai Elazar and 
+          Yuling Gu and 
+          Jack Hessel and 
+          Tushar Khot and 
+          William Merrill and 
+          Jacob Morrison and 
+          Niklas Muennighoff and 
+          Aakanksha Naik and 
+          Crystal Nam and 
+          Matthew E Peters and 
+          Valentina Pyatkin and 
+          Abhilasha Ravichander and 
+          Dustin Schwenk and 
+          Saurabh Shah and 
+          Will Smith and 
+          Emma Strubell and 
+          Nishant Subramani and 
+          Mitchell Wortsman and 
+          Pradeep Dasigi and 
+          Nathan Lambert and 
+          Kyle Richardson and 
+          Luke Zettlemoyer and 
+          Jesse Dodge and 
+          Kyle Lo and 
+          Luca Soldaini and
+          Noah A Smith and 
+          Hannaneh Hajishirzi},
+  booktitle={arXiv},
+  month=Feb,
+  year={2024},
+  url={https://arxiv.org/pdf/2402.00838.pdf},
+  preview={lumos.png},
+  arxiv={2402.00838},
+  abstract={Language models (LMs) have become ubiquitous in both NLP research and in commercial product offerings. As their commercial importance has surged, the most powerful models have become closed off, gated behind proprietary interfaces, with important details of their training data, architectures, and development undisclosed. Given the importance of these details in scientifically studying these models, including their biases and potential risks, we believe it is essential for the research community to have access to powerful, truly open LMs. To this end, we have built OLMo, a competitive, truly Open Language Model, to enable the scientific study of language models. Unlike most prior efforts that have only released model weights and inference code, we release OLMo alongside open training data and training and evaluation code. We hope this release will empower the open research community and inspire a new wave of innovation.}
+}
+
+@inproceedings{dolma,
+  title={Dolma: An open corpus of three trillion tokens for language model pretraining research},
+  author={Luca Soldaini and 
+          Rodney Kinney and 
+          Akshita Bhagia and 
+          Dustin Schwenk and 
+          David Atkinson and 
+          Russell Authur and 
+          Ben Bogin and 
+          Khyathi Chandu and 
+          Jennifer Dumas and 
+          Yanai Elazar and 
+          Valentin Hofmann and 
+          Ananya Harsh Jha and 
+          Sachin Kumar and 
+          Li Lucy and 
+          Xinxi Lyu and 
+          Nathan Lambert and 
+          Ian Magnusson and 
+          Jacob Morrison and 
+          Niklas Muennighoff and 
+          Aakanksha Naik and 
+          Crystal Nam and 
+          Matthew E Peters and 
+          Abhilasha Ravichander and 
+          Kyle Richardson and 
+          Zejiang Shen and 
+          Emma Strubell and 
+          Nishant Subramani and 
+          Oyvind Tafjord and 
+          Pete Walsh and 
+          Luke Zettlemoyer and 
+          Noah A Smith and
+          Hannaneh Hajishirzi and 
+          Iz Beltagy and 
+          Dirk Groeneveld and 
+          Jesse Dodge and 
+          Kyle Lo},
+  booktitle={ACL},
+  month=Jan,
+  year={2024},
+  url={https://arxiv.org/pdf/2402.00159},
+  preview={lumos.png},
+  arxiv={2402.00159},
+  code={https://github.com/allenai/dolma},
+  model={https://huggingface.co/datasets/allenai/dolma},
+  abstract={Information about pretraining corpora used to train the current best-performing language models is seldom discussed: commercial models rarely detail their data, and even open models are often released without accompanying training data or recipes to reproduce them. As a result, it is challenging to conduct and advance scientific research on language modeling, such as understanding how training data impacts model capabilities and limitations. To facilitate scientific research on language model pretraining, we curate and release Dolma, a three-trillion-token English corpus, built from a diverse mixture of web content, scientific papers, code, public-domain books, social media, and encyclopedic materials. We extensively document Dolma, including its design principles, details about its construction, and a summary of its contents. We present analyses and experimental results on intermediate states of Dolma to share what we have learned about important data curation practices. Finally, we open-source our data curation toolkit to enable reproduction of our work as well as support further research in large-scale data curation.}
+}
+
+@inproceedings{racl,
+  title={The unlocking spell on base llms: Rethinking alignment via in-context learning},
+  author={Bill Yuchen Lin and 
+          Abhilasha Ravichander and 
+          Ximing Lu and 
+          Nouha Dziri and 
+          Melanie Sclar and 
+          Khyathi Chandu and 
+          Chandra Bhagavatula and 
+          Yejin {Choi}},
+  booktitle={ICLR},
+  month=Dec,
+  year={2023},
+  url={https://openreview.net/pdf?id=wxJ0eXwwda},
+  preview={lumos.png},
+  website={https://allenai.github.io/re-align},
+  abstract={Alignment tuning has become the de facto standard practice for enabling base large language models (LLMs) to serve as open-domain AI assistants. The alignment tuning process typically involves instruction learning through supervised fine-tuning (SFT) and preference tuning via reinforcement learning from human feedback (RLHF). A recent study, LIMA (Zhou et al., 2023), shows that using merely 1K examples for SFT can achieve significant alignment performance as well, suggesting that the effect of alignment tuning might be “superficial. ” This raises questions about how exactly the alignment tuning transforms a base LLM. We analyze the effect of alignment tuning by examining the token distribution shift between base LLMs and their aligned counterpart (e.g., Llama-2 and Llama2-chat). Our findings reveal that base LLMs and their alignment-tuned versions perform nearly identically in decoding on the majority of token positions (i.e., they share the top-ranked tokens). Most distribution shifts occur with stylistic tokens (e.g., discourse markers, safety disclaimers). These direct evidence strongly supports the hypothesis that alignment tuning primarily learns to adopt the language style of AI assistants, and that the knowledge required for answering user queries predominantly comes from the base LLMs themselves. Based on these findings, we rethink the alignment of LLMs by posing the research question: how effectively can we align base LLMs without SFT or RLHF? To address this, we introduce a simple, tuning-free alignment method, URIAL (Untuned LLMs with Restyled In-context ALignment). URIAL achieves effective alignment purely through in-context learning (ICL) with base LLMs, requiring as few as three constant stylistic examples and a system prompt. We conduct a fine-grained and interpretable evaluation on a diverse set of examples, named just-eval-instruct. Results demonstrate that base LLMs with URIAL can match or even surpass the performance of LLMs aligned with SFT (Mistral-7b-Instruct) or SFT+RLHF (Llama-2-70b-chat). We show that the gap between tuning-free and tuning-based alignment methods can be significantly reduced through strategic prompting and ICL. Our findings on superficial nature of alignment tuning and results with URIAL suggest that deeper analysis and theoretical understanding of alignment is crucial to future LLM research.}
+}
+
+@inproceedings{deal,
+  title={Deal, or no deal (or who knows)? Forecasting Uncertainty in Conversations using Large Language Models},
+  author={Anthony Sicilia and 
+          Hyunwoo Kim and 
+          Khyathi Raghavi Chandu and 
+          Malihe Alikhani and 
+          Jack Hessel},
+  booktitle={arXiv},
+  month=Feb,
+  year={2024},
+  url={https://arxiv.org/pdf/2402.03284},
+  preview={lumos.png},
+  arxiv={2402.03284},
+  abstract={Effective interlocutors account for the uncertain goals, beliefs, and emotions of others. But even the best human conversationalist cannot perfectly anticipate the trajectory of a dialogue. How well can language models represent inherent uncertainty in conversations? We propose FortUne Dial, an expansion of the long-standing “conversation forecasting” task: instead of just accuracy, evaluation is conducted with uncertainty-aware metrics, effectively enabling abstention on individual instances. We study two ways in which language models potentially represent outcome uncertainty (internally, using scores and directly, using tokens) and propose fine-tuning strategies to improve calibration of both representations. Experiments on eight difficult negotiation corpora demonstrate that our proposed fine-tuning strategies (a traditional supervision strategy and an off-policy reinforcement learning strategy) can calibrate smaller open-source models to compete with pre-trained models 10x their size.}
+}
+
+@inproceedings{selpred,
+  title={Selective "Selective Prediction": Reducing Unnecessary Abstention in Vision-Language Reasoning},
+  author={Tejas Srinivasan and 
+          Jack Hessel and 
+          Tanmay Gupta and 
+          Bill Yuchen Lin and 
+          Yejin Choi and 
+          Jesse Thomason and 
+          Khyathi Raghavi Chandu},
+  booktitle={ACL findings},
+  month=Feb,
+  year={2024},
+  url={https://arxiv.org/pdf/2402.15610},
+  preview={lumos.png},
+  arxiv={2402.15610},
+  code={https://github.com/tejas1995/ReCoVERR.},
+  abstract={Selective prediction minimizes incorrect predictions from vision-language models (VLMs) by allowing them to abstain from answering when uncertain. However, when deploying a vision-language system with low tolerance for inaccurate predictions, selective prediction may be over-cautious and abstain too frequently, even on many correct predictions. We introduce ReCoVERR, an inference-time algorithm to reduce the over-abstention of a selective vision-language system without increasing the error rate of the system’s predictions. When the VLM makes a low-confidence prediction, instead of abstaining ReCoVERR tries to find relevant clues in the image that provide additional evidence for the prediction. ReCoVERR uses an LLM to pose related questions to the VLM, collects high-confidence evidences, and if enough evidence confirms the prediction the system makes a prediction instead of abstaining. ReCoVERR enables three VLMs (BLIP2, InstructBLIP and LLaVA-1.5) to answer up to 20% more questions on the VQAv2 and AOKVQA tasks without decreasing system accuracy, thus improving overall system reliability.}
+}
+
+@inproceedings{sumcunits,
+  title={On the Role of Summary Content Units in Text Summarization Evaluation},
+  author={Marcel Nawrath and 
+          Agnieszka Nowak and 
+          Tristan Ratz and 
+          Danilo C Walenta and 
+          Juri Opitz and 
+          Leonardo FR Ribeiro and 
+          João Sedoc and 
+          Daniel Deutsch and 
+          Simon Mille and 
+          Yixin Liu and 
+          Lining Zhang and 
+          Sebastian Gehrmann and 
+          Saad Mahamood and 
+          Miruna Clinciu and 
+          Khyathi Chandu and 
+          Yufang Hou},
+  booktitle={NAACL},
+  month=Feb,
+  year={2024},
+  url={https://arxiv.org/pdf/2404.01701},
+  preview={lumos.png},
+  arxiv={2404.01701},
+  abstract={At the heart of the Pyramid evaluation method for text summarization lie human written summary content units (SCUs). These SCUs are concise sentences that decompose a summary into small facts. Such SCUs can be used to judge the quality of a candidate summary, possibly partially automated via natural language inference (NLI) systems. Interestingly, with the aim to fully automate the Pyramid evaluation, Zhang and Bansal (2021) show that SCUs can be approximated by automatically generated semantic role triplets (STUs). However, several questions currently lack answers, in particular: i) Are there other ways of approximating SCUs that can offer advantages? ii) Under which conditions are SCUs (or their approximations) offering the most value? In this work, we examine two novel strategies to approximate SCUs: generating SCU approximations from AMR meaning representations (SMUs) and from large language models (SGUs), respectively. We find that while STUs and SMUs are competitive, the best approximation quality is achieved by SGUs. We also show through a simple sentence-decomposition baseline (SSUs) that SCUs (and their approximations) offer the most value when ranking short summaries, but may not help as much when ranking systems or longer summaries.}
+}
+
+@inproceedings{novacomet,
+  title={NovaCOMET: Open Commonsense Foundation Models with Symbolic Knowledge Distillation},
+  author={Peter West and 
+          Ronan Le Bras and 
+          Taylor Sorensen and 
+          Bill Yuchen Lin and 
+          Liwei Jiang and 
+          Ximing Lu and 
+          Khyathi Chandu and 
+          Jack Hessel and 
+          Ashutosh Baheti and 
+          Chandra Bhagavatula and 
+          Yejin Choi},
+  booktitle={EMNLP findings},
+  month=Dec,
+  year={2023},
+  url={https://arxiv.org/pdf/2312.05979},
+  preview={lumos.png},
+  arxiv={2312.05979},
+  abstract={We present NOVACOMET, an open commonsense knowledge model, that combines the best aspects of knowledge models and general task models. Compared to previous knowledge models, NOVACOMET allows open-format relations enabling direct application to reasoning tasks; compared to general task models like Flan-T5, NOVACOMET explicitly centers knowledge, enabling superior performance for commonsense reasoning. NOVACOMET leverages the knowledge of opaque proprietary models to create an open knowledge pipeline. First, knowledge is symbolically distilled into NOVATOMIC, a publiclyreleased1 discrete knowledge graph which can be audited, critiqued, and filtered. Next, we train NOVACOMET on NOVATOMIC by finetuning an open-source pretrained model. NOVACOMET uses an open-format training objective, replacing the fixed relation sets of past knowledge models, enabling arbitrary structures within the data to serve as inputs or outputs. The resulting generation model, optionally augmented with human annotation, matches or exceeds comparable open task models like FlanT5 on a range of commonsense generation tasks. NOVACOMET serves as a counterexample to the contemporary focus on instruction tuning only, demonstrating a distinct advantage to explicitly modeling commonsense knowledge as well.}
+}
+
 
 @inproceedings{lumos,
   title={Lumos: Learning Agents with Unified Data, Modular Design, and Open-Source LLMs},
