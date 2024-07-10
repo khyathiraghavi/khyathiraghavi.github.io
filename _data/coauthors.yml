@@ -21,3 +21,15 @@
 "Gehrmann":
   - firstname: ["Sebastian Gehrmann", "Sebastian"]
     url: https://sebastiangehrmann.github.io/
+
+"Schmidt":
+  - firstname: ["Ludwig Schmidt", "Ludwig"]
+    url: https://people.csail.mit.edu/ludwigs/
+
+"Shankar":
+  - firstname: ["Vaishaal", "Vaishaal Shankar"]
+    url: http://vaishaal.com/
+
+"Tsvetkov":
+  - firstname: ["Yulia", "Yulia Tsvetkov"]
+    url: https://homes.cs.washington.edu/~yuliats/

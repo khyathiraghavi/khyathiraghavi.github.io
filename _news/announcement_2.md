@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Organizing workshops on [NILLI](https://www.cs.mcgill.ca/~pparth2/nilli_workshop_2023) and [GEM](https://gem-benchmark.com/workshop) at EMNLP 2023. Stay tuned for awesome keynote talks and presentations!
+Organizing workshops on [WNU]() at EMNLP 2024. Stay tuned for awesome keynote talks and presentations!
