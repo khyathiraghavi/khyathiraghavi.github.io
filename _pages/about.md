@@ -23,7 +23,7 @@ I am a Research Scientist in the [Mosaic](https://mosaic.allenai.org/) team work
 
 * **Uncertainty and Hallucinations:** Improving reliability and awareness in LLMs and VLMs with a focus on reducing hallucinations in unimodal and multimodal scenarios.
 * **Interactive Agents for reasoning and generation:** Teaching machines to plan and execute complex interactive tasks. Syngergizing LLMs and VLMs to assist each other.
-* **Evaluating RL:** Understanding and evaluating the caapbilities of LLMs especially in the wild and reward models. 
+* **Evaluating RL:** Understanding and evaluating the capabilities of LLMs especially in the wild and reward models. 
 
 I am also excited about ***inference time algorithms***, ***multilinguality*** and ***alignment***. Get in touch if you want to chat, I'm open to collaborations or brainstorming!
 
