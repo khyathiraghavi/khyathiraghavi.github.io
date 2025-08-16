@@ -20,8 +20,11 @@ social: true  # includes social icons at the bottom of the page
 ---
 
 I am an AI Research Scientist at [Mistral AI](https://mistral.ai/), based in Palo Alto. My research centers on developing and training large-scale models—ranging from 3B, 24B to 123B parameters—with a focus on two key directions:
+
 🎧 **Multimodality with Voxtral**: a family of open-source audio–language models.
+
 🧠 **Reasoning with Magistral**: a line of large-scale reasoning models.
+
 A core part of my efforts is advancing open-source research and releases to make these capabilities broadly accessible to the community.
 
 Previously, I was part of the [Mosaic](https://mosaic.allenai.org/) team at the Allen Institute for AI, working in [Yejin Choi’s](https://homes.cs.washington.edu/~yejin/) group, and also worked as a Research Scientist at Meta AI. I earned my Ph.D. from [Carnegie Mellon University](https://www.cmu.edu/) at the [Language Technologies Institute](https://lti.cs.cmu.edu/), where my research centered on grounded multimodal long-form generation, advised by [Alan W. Black](http://www.cs.cmu.edu/~awb/), [Eric Nyberg](https://www.cs.cmu.edu/~ehn/), and [Yonatan Bisk](https://yonatanbisk.com/).
